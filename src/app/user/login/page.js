@@ -1,5 +1,9 @@
+import Login from "@/app/components/auth/Login";
+
 export default function Home() {
   return (
-      <h1>This is user login page</h1>
+      <div className="container mx-auto my-10">
+        <Login/>
+      </div>
   );
 }

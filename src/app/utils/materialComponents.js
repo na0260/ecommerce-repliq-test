@@ -6,7 +6,10 @@ import {
     Input,
     Checkbox,
     Typography,
-    Button
+    Button,
+    Navbar,
+    MobileNav,
+    IconButton,
 } from "@material-tailwind/react";
 
 export {
@@ -15,5 +18,8 @@ export {
     Input,
     Checkbox,
     Typography,
-    Button
+    Button,
+    Navbar,
+    MobileNav,
+    IconButton,
 };
