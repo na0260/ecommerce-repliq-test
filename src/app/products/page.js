@@ -1,5 +1,12 @@
+"use client"
+import NavBar from "@/app/components/NavBar";
+import ProductList from "@/app/components/products/ProductList";
+
 export default function Home() {
-  return (
-      <h1>This is product list</h1>
-  );
+    return (
+        <>
+            <NavBar/>
+            <ProductList/>
+        </>
+    );
 }
