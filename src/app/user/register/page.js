@@ -1,5 +1,9 @@
+import Register from "@/app/components/auth/Register";
+
 export default function Home() {
   return (
-      <h1>This is user register page</h1>
+      <div className="container mx-auto mt-10">
+        <Register/>
+      </div>
   );
 }
