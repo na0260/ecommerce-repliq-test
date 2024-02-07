@@ -1,9 +1,12 @@
 import Login from "@/app/components/auth/Login";
+import NavBar from "@/app/components/NavBar";
 
 export default function Home() {
-  return (
-      <div className="container mx-auto my-10">
-        <Login/>
-      </div>
-  );
+    return (
+        <>
+            <NavBar/>
+            <Login/>
+        </>
+
+    );
 }

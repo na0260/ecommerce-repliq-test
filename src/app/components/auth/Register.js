@@ -8,7 +8,7 @@ import {
 } from "@/app/utils/materialComponents";
 const Register = () => {
     return (
-        <Card className="mx-auto" color="dark" shadow={false} >
+        <Card className="mx-auto my-10" color="transparent" shadow={false} >
             <Typography className="mx-auto" variant="h4" color="blue-gray">
                 Sign Up
             </Typography>
